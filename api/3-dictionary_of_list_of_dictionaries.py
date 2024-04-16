@@ -11,7 +11,7 @@ import requests
 def get_employee(id=None):
     '''
         Function that, using this REST API, for a given employee ID,
-        returns information about his/her TODO list progress and export 
+        returns information about his/her TODO list progress and export
         it to JSON.
     '''
     # Get the users and todos from the API
